@@ -21,7 +21,7 @@ datasets:
           name: "blip_question"
     build_info:
         images:
-            storage: "/home/abirmhadi/data/gqa/images/"
+            storage: "/home/jacks.local/ahadi/compression/data/gqa/images/"
 
 run:
   task: gqa

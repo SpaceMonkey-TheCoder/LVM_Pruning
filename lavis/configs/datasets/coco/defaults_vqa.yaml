@@ -16,8 +16,8 @@ datasets:
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/vqav2/vqa_train.json
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/vqav2/vqa_val.json
           storage:
-              - /home/abirmhadi/data/coco/annotations/vqa_train.json
-              - /home/abirmhadi/data/coco/annotations/vqa_val.json
+              - /home/jacks.local/ahadi/compression/data/coco/annotations/vqa_train.json
+              - /home/jacks.local/ahadi/compression/data/coco/annotations/vqa_val.json
         val:
           url:
               # TODO make this order insensitive
@@ -26,16 +26,16 @@ datasets:
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/vqav2/v2_OpenEnded_mscoco_val2014_questions.json
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/vqav2/v2_mscoco_val2014_annotations.json
           storage:
-              - /home/abirmhadi/data/coco/annotations/vqa_val_eval.json
-              - /home/abirmhadi/data/coco/annotations/answer_list.json
-              - /home/abirmhadi/data/coco/annotations/v2_OpenEnded_mscoco_val2014_questions.json
-              - /home/abirmhadi/data/coco/annotations/v2_mscoco_val2014_annotations.json
+              - /home/jacks.local/ahadi/compression/data/coco/annotations/vqa_val_eval.json
+              - /home/jacks.local/ahadi/compression/data/coco/annotations/answer_list.json
+              - /home/jacks.local/ahadi/compression/data/coco/annotations/v2_OpenEnded_mscoco_val2014_questions.json
+              - /home/jacks.local/ahadi/compression/data/coco/annotations/v2_mscoco_val2014_annotations.json
         test:
           url:
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/vqav2/vqa_test.json
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/vqav2/answer_list.json
           storage:
-              - /home/abirmhadi/data/coco/annotations/vqa_test.json
-              - /home/abirmhadi/data/coco/annotations/answer_list.json
+              - /home/jacks.local/ahadi/compression/data/coco/annotations/vqa_test.json
+              - /home/jacks.local/ahadi/compression/data/coco/annotations/answer_list.json
       images:
-          storage: /home/abirmhadi/data/coco/images/
+          storage: /home/jacks.local/ahadi/compression/data/coco/images/

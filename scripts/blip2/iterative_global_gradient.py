@@ -34,7 +34,9 @@ max_sparsity_per_layer = f"{round(1.0 - ratio + 0.1, 1)}"
 
 job_id = f"cc3m-{method}_{ratios}_iteration{iteration}_global_per_model"
 
-for task in ["vqav2_zeroshot_flant5xl_eval", "gqa_zeroshot_flant5xl_eval", "okvqa_zeroshot_flant5xl_eval", "nocaps_flant5xl_eval", "ret_flickr_eval"]:
+# ["vqav2_zeroshot_flant5xl_eval", "gqa_zeroshot_flant5xl_eval", "okvqa_zeroshot_flant5xl_eval", "nocaps_flant5xl_eval", "ret_flickr_eval"]
+
+for task in ["ret_flickr_eval"]:
     
     vit_pruned_checkpoint = f"pruned_checkpoint/{job_id}.pth"
     t5_pruned_checkpoint = f"pruned_checkpoint/{job_id}.pth"

@@ -13,8 +13,8 @@ datasets:
       annotations:
         train:
           url:
-              - /export/home/workspace/datasets/cc3m.json
+              - /home/jacks.local/ahadi/compression/datasets/cc3m.json
           storage:
-              - /home/abirmhadi/data/conceptual_caption/cc3m.json
+              - /home/jacks.local/ahadi/compression/data/conceptual_caption/cc3m.json
       images:
-          storage: /home/abirmhadi/data/conceptual_caption/images
+          storage: /home/jacks.local/ahadi/compression/data/conceptual_caption/images

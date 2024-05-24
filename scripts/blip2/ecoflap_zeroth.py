@@ -35,7 +35,9 @@ subprocess.call(program, shell=True)
 
 method = "blipt5_wanda_pruner"
 
-for task in ["vqav2_zeroshot_flant5xl_eval", "gqa_zeroshot_flant5xl_eval", "okvqa_zeroshot_flant5xl_eval", "nocaps_flant5xl_eval", "ret_flickr_eval"]:
+#["vqav2_zeroshot_flant5xl_eval", "gqa_zeroshot_flant5xl_eval", "okvqa_zeroshot_flant5xl_eval", "nocaps_flant5xl_eval", "ret_flickr_eval"]
+
+for task in ["ret_flickr_eval"]:
 
     ratios = f"{ratio}-1.0-1.0"
     

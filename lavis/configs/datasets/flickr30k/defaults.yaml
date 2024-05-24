@@ -20,5 +20,5 @@ datasets:
           url: https://storage.googleapis.com/sfr-vision-language-research/datasets/flickr30k_test.json
           storage: /home/jacks.local/ahadi/compression/data/flickr30k/annotations/test.json
       images:
-          storage: /home/jacks.local/ahadi/compression/data/flickr30k/images
+          storage: /mmfs1/home/jacks.local/ahadi/compression/data/flickr30k/images
           # storage: /export/share/datasets/vision/flickr30k

@@ -16,21 +16,21 @@ datasets:
               - /export/share/datasets/vision/GQA/questions1.2/train_all_questions/train_all_questions_0.json
               - /export/share/datasets/vision/GQA/questions1.2/val_all_questions.json
           storage:
-              - /home/jacks.local/ahadi/compression/data/gqa/annotations/train_all_questions_0.json
-              - /home/jacks.local/ahadi/compression/data/gqa/annotations/val_all_questions.json
+              - /scratch/jacks.local/ahadi/compression/data/gqa/annotations/train_all_questions_0.json
+              - /scratch/jacks.local/ahadi/compression/data/gqa/annotations/val_all_questions.json
         val:
           url:
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/aokvqa/aokvqa_v1p0_val.json
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/aokvqa/large_vocab_train_lavis.json
           storage:
-              - /home/jacks.local/ahadi/compression/data/aokvqa/annotations/aokvqa_v1p0_val.json
-              - /home/jacks.local/ahadi/compression/data/aokvqa/annotations/large_vocab_train_lavis.json
+              - /scratch/jacks.local/ahadi/compression/data/aokvqa/annotations/aokvqa_v1p0_val.json
+              - /scratch/jacks.local/ahadi/compression/data/aokvqa/annotations/large_vocab_train_lavis.json
         test:
           url:
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/aokvqa/aokvqa_v1p0_test.json
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/aokvqa/large_vocab_train_lavis.json
           storage:
-              - /home/jacks.local/ahadi/compression/data/aokvqa/annotations/aokvqa_v1p0_test.json
-              - /home/jacks.local/ahadi/compression/data/aokvqa/annotations/large_vocab_train_lavis.json
+              - /scratch/jacks.local/ahadi/compression/data/aokvqa/annotations/aokvqa_v1p0_test.json
+              - /scratch/jacks.local/ahadi/compression/data/aokvqa/annotations/large_vocab_train_lavis.json
       images:
-          storage: /home/jacks.local/ahadi/compression/data/gqa/images/
+          storage: /scratch/jacks.local/ahadi/compression/data/gqa/images/
